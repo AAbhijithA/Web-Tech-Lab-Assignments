@@ -1,1 +1,1 @@
-# Web Technologies lab Assignments
+# Web Technologies Lab Assignments
