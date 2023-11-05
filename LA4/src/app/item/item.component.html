@@ -1,0 +1,12 @@
+<div class="item">
+  <div align = "center">
+    <input
+      [id]="item.description"
+      type="checkbox"
+      (change)="item.done = !item.done"
+      [checked]="item.done" />
+    <label [for]="item.description">{{item.description}}</label>
+    <div class="btn-wrapper"><button class="btn btn-warn" (click)="remove.emit()" style="background-color: khaki; margin-left: 25%;">Delete Task</button></div>
+  </div>
+</div>
+  
