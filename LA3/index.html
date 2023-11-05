@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+ <div class="container">
+   <h2>User Details</h2>
+   <form id="myForm">
+       <div class="formelem">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required>
+       </div>
+       <div class="formelem">
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+       </div>
+       <div class="formelem">
+         <label for="age">Age:</label><br>
+         <input type="number" id="age" name="age" required>
+       </div>
+       <div class="formelem">
+         <label for="message">Message:</label>
+         <textarea id="message" name="message" required></textarea>
+       </div>
+       <div align="center" class="formelem">
+         <input type="submit" value="Submit">
+       </div>
+   </form>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
